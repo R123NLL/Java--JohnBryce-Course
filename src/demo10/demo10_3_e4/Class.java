@@ -1,4 +1,4 @@
-package demo10_3.demo10_3_e1.demo10_3_e4;
+package demo10.demo10_3_e4;
 
 import java.util.Scanner;
 

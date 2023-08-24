@@ -1,4 +1,4 @@
-package demo10_3.demo10_3_e1.demo10_3_e3;
+package demo10.demo10_3_e3;
 
 import java.util.Random;
 
