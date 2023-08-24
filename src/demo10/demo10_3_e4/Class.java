@@ -10,21 +10,17 @@ public class Class {
         int b = scanner.nextInt();
         int c = scanner.nextInt();
         scanner.close();
-        int maxNum = 0;
-        int minNum = 0;
+        System.out.println("a : " + a);
+        System.out.println("b : " + b);
+        System.out.println("c : " + c);
+        int sum = a + b + c;
+        int max=Math.max(a,Math.max(b,c));
+        int min=Math.min(a,Math.min(b,c));
 
-        if (a > b && a > c) {
-            maxNum = a;
-            minNum = Math.min(b, c);
-            //minNum=Math.pow(minNum,3);
-        } else if (b > c) {
-            maxNum = b;
-            minNum = Math.min(a, c);
-        } else {
-            maxNum = c;
-            minNum = Math.min(a, b);
-        }
 
-        System.out.println("Number a is the biggest number: " + maxNum);
+
+        System.out.println("The biggest number is: " +max);
+        System.out.println("The smallest number in the power of 3 is: " +Math.pow(min,3));
+        System.out.println("The middle number is: "+(sum-max-min));
     }
 }
